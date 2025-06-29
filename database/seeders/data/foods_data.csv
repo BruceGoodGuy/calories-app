@@ -1,0 +1,106 @@
+name,slug,protein_per_100g,fat_per_100g,carbs_per_100g,calories_per_100g
+Phở bò,pho-bo,8.5,3.2,30.1,190
+Bún bò Huế,bun-bo-hue,9.2,4.1,28.5,205
+Bánh xèo,banh-xeo,5.8,12.3,25.7,240
+Cơm tấm sườn,com-tam-suon,15.3,10.5,45.2,350
+Bánh mì pate,banh-mi-pate,12.3,10.5,40.2,310
+Gỏi cuốn,goi-cuon,6.2,2.1,15.3,110
+Bún chả,bun-cha,14.5,6.8,20.1,220
+Chả giò,cha-gio,7.1,15.2,12.3,210
+Canh chua cá lóc,canh-chua-ca-loc,8.9,3.5,5.4,95
+Bánh cuốn,banh-cuon,4.8,2.3,25.6,145
+Xôi gấc,xoi-gac,3.5,4.2,50.3,250
+Chè đậu đen,che-dau-den,4.1,1.2,35.7,170
+Bánh bao,banh-bao,6.7,3.5,30.8,185
+Bánh canh cua,banh-canh-cua,10.2,5.7,22.4,195
+Cá kho tộ,ca-kho-to,16.8,8.4,3.2,160
+Rau muống xào tỏi,rau-muong-xao-toi,2.3,4.5,3.8,65
+Nem nướng,nem-nuong,12.5,9.8,5.6,175
+Bánh tráng trộn,banh-trang-tron,2.1,7.6,35.2,220
+Súp cua,sup-cua,5.6,3.2,8.9,90
+Bò lá lốt,bo-la-lot,14.2,7.9,3.5,150
+Cơm gà Hội An,com-ga-hoi-an,18.3,6.7,30.5,270
+Bún đậu mắm tôm,bun-dau-mam-tom,12.8,8.2,25.3,240
+Cháo lòng,chao-long,11.5,5.9,12.4,160
+Bánh bèo,banh-beo,2.8,1.5,20.7,110
+Bánh ướt,banh-uot,3.2,1.1,25.3,130
+Bánh hỏi,banh-hoi,3.5,0.8,35.2,165
+Bánh đúc,banh-duc,2.1,1.2,22.5,110
+Bánh tét,banh-tet,4.2,8.5,45.3,280
+Bánh chưng,banh-chung,5.1,7.8,40.2,260
+Bánh giò,banh-gio,6.2,5.4,25.8,185
+Bánh rán,banh-ran,3.5,12.3,30.5,250
+Bánh cam,banh-cam,3.2,10.8,35.2,240
+Bánh tiêu,banh-tieu,3.8,8.5,40.1,245
+Bánh phồng tôm,banh-phong-tom,7.5,12.3,30.2,260
+Bánh đa cua,banh-da-cua,9.8,5.2,25.7,195
+Bánh đa trộn,banh-da-tron,5.2,7.8,35.4,230
+Bánh căn,banh-can,4.5,6.2,20.3,165
+Bánh khọt,banh-khot,5.1,8.5,15.2,170
+Bánh mì chảo,banh-mi-chao,12.3,15.2,25.4,290
+Bánh mì xíu mại,banh-mi-xiu-mai,10.5,8.7,30.2,235
+Bánh mì chà bông,banh-mi-cha-bong,9.8,5.4,35.2,225
+Bánh mì kẹp thịt,banh-mi-kep-thit,12.5,10.2,30.5,275
+Bánh mì kẹp trứng,banh-mi-kep-trung,11.2,8.5,25.3,230
+Bánh mì kẹp pate,banh-mi-kep-pate,10.8,12.3,28.4,270
+Bánh mì kẹp chả,banh-mi-kep-cha,12.1,9.8,25.6,245
+Bánh mì kẹp xá xíu,banh-mi-kep-xa-xiu,13.2,8.9,30.2,260
+Bánh mì kẹp cá mòi,banh-mi-kep-ca-moi,14.5,7.8,25.3,240
+Bánh mì kẹp thịt nguội,banh-mi-kep-thit-nguoi,11.8,6.5,30.2,230
+Bánh mì kẹp chả lụa,banh-mi-kep-cha-lua,12.3,5.8,32.1,235
+Bánh mì kẹp chả bò,banh-mi-kep-cha-bo,13.5,7.2,28.4,245
+Bánh mì kẹp chả cá,banh-mi-kep-cha-ca,14.2,6.8,25.3,235
+Bánh mì kẹp chả cua,banh-mi-kep-cha-cua,13.8,7.5,26.2,240
+Bánh mì kẹp chả tôm,banh-mi-kep-cha-tom,14.5,6.9,27.1,240
+Bánh mì kẹp chả mực,banh-mi-kep-cha-muc,13.9,7.2,26.8,240
+Bánh mì kẹp chả cá thu,banh-mi-kep-cha-ca-thu,14.8,8.2,25.9,250
+Bánh mì kẹp chả cá basa,banh-mi-kep-cha-ca-basa,14.2,7.8,26.3,245
+Bánh mì kẹp chả cá hồi,banh-mi-kep-cha-ca-hoi,15.2,9.8,25.1,265
+Bánh mì kẹp chả cá ngừ,banh-mi-kep-cha-ca-ngu,15.5,8.5,26.2,260
+Bánh mì kẹp chả cá trích,banh-mi-kep-cha-ca-trich,14.8,9.2,25.8,260
+Bánh mì kẹp chả cá thu,banh-mi-kep-cha-ca-thu,14.6,8.8,26.1,255
+Bánh mì kẹp chả cá đuối,banh-mi-kep-cha-ca-duoi,13.9,7.5,26.8,240
+Bánh mì kẹp chả cá lóc,banh-mi-kep-cha-ca-loc,14.2,8.2,26.3,250
+Bánh mì kẹp chả cá diêu hồng,banh-mi-kep-cha-ca-dieu-hong,14.5,8.5,26.1,255
+Bánh mì kẹp chả cá chép,banh-mi-kep-cha-ca-chep,13.8,7.9,26.5,245
+Bánh mì kẹp chả cá trắm,banh-mi-kep-cha-ca-tram,14.1,8.1,26.2,250
+Bánh mì kẹp chả cá rô,banh-mi-kep-cha-ca-ro,13.9,7.8,26.4,245
+Bánh mì kẹp chả cá lăng,banh-mi-kep-cha-ca-lang,14.3,8.3,26.1,255
+Bánh mì kẹp chả cá trê,banh-mi-kep-cha-ca-tre,14.0,8.0,26.3,250
+Bánh mì kẹp chả cá bống,banh-mi-kep-cha-ca-bong,13.7,7.7,26.5,245
+Bánh mì kẹp chả cá kèo,banh-mi-kep-cha-ca-keo,13.8,7.9,26.4,245
+Bánh mì kẹp chả cá ngát,banh-mi-kep-cha-ca-ngat,13.9,8.0,26.3,250
+Bánh mì kẹp chả cá đối,banh-mi-kep-cha-ca-doi,14.1,8.2,26.2,255
+Bánh mì kẹp chả cá nục,banh-mi-kep-cha-ca-nuc,14.2,8.3,26.1,255
+Bánh mì kẹp chả cá cơm,banh-mi-kep-cha-ca-com,13.8,7.9,26.4,245
+Bánh mì kẹp chả cá mối,banh-mi-kep-cha-ca-moi,14.0,8.1,26.3,250
+Bánh mì kẹp chả cá chuồn,banh-mi-kep-cha-ca-chuon,13.9,8.0,26.4,250
+Bánh mì kẹp chả cá đé,banh-mi-kep-cha-ca-de,13.8,7.9,26.5,245
+Bánh mì kẹp chả cá bạc má,banh-mi-kep-cha-ca-bac-ma,14.1,8.2,26.2,255
+Bánh mì kẹp chả cá ngừ đại dương,banh-mi-kep-cha-ca-ngu-dai-duong,15.5,9.8,25.1,270
+Bánh mì kẹp chả cá hồi đại dương,banh-mi-kep-cha-ca-hoi-dai-duong,15.8,10.2,25.0,275
+Bánh mì kẹp chả cá thu đại dương,banh-mi-kep-cha-ca-thu-dai-duong,15.2,9.5,25.3,265
+Bánh mì kẹp chả cá ngừ vây vàng,banh-mi-kep-cha-ca-ngu-vay-vang,15.3,9.6,25.2,265
+Bánh mì kẹp chả cá ngừ vây xanh,banh-mi-kep-cha-ca-ngu-vay-xanh,15.4,9.7,25.1,265
+Bánh mì kẹp chả cá ngừ mắt to,banh-mi-kep-cha-ca-ngu-mat-to,15.1,9.4,25.4,260
+Bánh mì kẹp chả cá ngừ sọc dưa,banh-mi-kep-cha-ca-ngu-soc-dua,15.0,9.3,25.5,260
+Bánh mì kẹp chả cá ngừ chấm,banh-mi-kep-cha-ca-ngu-cham,14.9,9.2,25.6,255
+Bánh mì kẹp chả cá ngừ đốm,banh-mi-kep-cha-ca-ngu-dom,14.8,9.1,25.7,255
+Bánh mì kẹp chả cá ngừ vằn,banh-mi-kep-cha-ca-ngu-van,14.7,9.0,25.8,250
+Bánh mì kẹp chả cá ngừ sọc,banh-mi-kep-cha-ca-ngu-soc,14.6,8.9,25.9,250
+Bánh mì kẹp chả cá ngừ đen,banh-mi-kep-cha-ca-ngu-den,14.5,8.8,26.0,245
+Bánh mì kẹp chả cá ngừ trắng,banh-mi-kep-cha-ca-ngu-trang,14.4,8.7,26.1,245
+Bánh mì kẹp chả cá ngừ đỏ,banh-mi-kep-cha-ca-ngu-do,14.3,8.6,26.2,240
+Bánh mì kẹp chả cá ngừ xanh,banh-mi-kep-cha-ca-ngu-xanh,14.2,8.5,26.3,240
+Bánh mì kẹp chả cá ngừ vàng,banh-mi-kep-cha-ca-ngu-vang,14.1,8.4,26.4,235
+Bánh mì kẹp chả cá ngừ bạc,banh-mi-kep-cha-ca-ngu-bac,14.0,8.3,26.5,235
+Bánh mì kẹp chả cá ngừ hồng,banh-mi-kep-cha-ca-ngu-hong,13.9,8.2,26.6,230
+Bánh mì kẹp chả cá ngừ tím,banh-mi-kep-cha-ca-ngu-tim,13.8,8.1,26.7,230
+Bánh mì kẹp chả cá ngừ nâu,banh-mi-kep-cha-ca-ngu-nau,13.7,8.0,26.8,225
+Bánh mì kẹp chả cá ngừ đen,banh-mi-kep-cha-ca-ngu-den,13.6,7.9,26.9,225
+Bánh mì kẹp chả cá ngừ xám,banh-mi-kep-cha-ca-ngu-xam,13.5,7.8,27.0,220
+Bánh mì kẹp chả cá ngừ bông,banh-mi-kep-cha-ca-ngu-bong,13.4,7.7,27.1,220
+Bánh mì kẹp chả cá ngừ vân,banh-mi-kep-cha-ca-ngu-van,13.3,7.6,27.2,215
+Bánh mì kẹp chả cá ngừ sao,banh-mi-kep-cha-ca-ngu-sao,13.2,7.5,27.3,215
+Bánh mì kẹp chả cá ngừ chấm,banh-mi-kep-cha-ca-ngu-cham,13.1,7.4,27.4,210
+Bánh mì kẹp chả cá ngừ đốm,banh-mi-kep-cha-ca-ngu-dom,13.0,7.3,27.5,210
