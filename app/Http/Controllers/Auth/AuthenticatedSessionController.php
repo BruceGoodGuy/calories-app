@@ -10,6 +10,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 use Inertia\Response;
+use Native\Laravel\Facades\App;
 use App\Models\Tdee;
 
 class AuthenticatedSessionController extends Controller
@@ -33,7 +34,6 @@ class AuthenticatedSessionController extends Controller
         $request->authenticate();
 
         $request->session()->regenerate();
-
         if (Tdee::where('user_id', Auth::id())->exists()) {
             return redirect()->intended(route('dashboard', absolute: false));
         } else {

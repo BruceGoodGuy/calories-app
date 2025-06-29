@@ -25,7 +25,9 @@ class FoodService
         $currentProtein = $meals->sum('protein');
         $currentCarbs = $meals->sum('carbs');
         $currentFat = $meals->sum('fat');
-        $tdeeDetails = $tdee->tdeeDetails()->first();
+        if ($tdee) {
+            $tdeeDetails = $tdee->tdeeDetails()->first();
+        }
         if (!$tdee || !$tdeeDetails) {
             return [
                 'calories' => ['current' => 0, 'target' => 0],

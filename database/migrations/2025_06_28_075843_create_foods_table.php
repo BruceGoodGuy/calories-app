@@ -19,7 +19,7 @@ return new class extends Migration
             $table->float('fat_per_100g');
             $table->float('carbs_per_100g');
             $table->float('calories_per_100g');
-            $table->fullText(['name', 'slug']);
+            // $table->fullText(['name', 'slug']);
             $table->timestamps();
         });
     }

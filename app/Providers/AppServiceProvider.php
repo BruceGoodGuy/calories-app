@@ -20,5 +20,8 @@ class AppServiceProvider extends ServiceProvider
     public function boot(): void
     {
         //
+        $this->app->extend('command.native.seed', function() {
+            return new \NativePHP\Console\Commands\SeedCommand();
+        });
     }
 }
