@@ -24,7 +24,7 @@ class Food extends Model
     {
         return $query->when($withTrashed, fn($q) => $q->withTrashed())
             ->where(function ($q) use ($term) {
-                $q->whereFullText(['name', 'slug'], $term)
+                $q->where('name', 'like', "%{$term}%")
                     ->orWhere('slug', 'like', "%{$term}%");
             });
     }

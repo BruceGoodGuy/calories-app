@@ -140,13 +140,13 @@ export default function Dashboard(props: { dailyGoals: DailyGoals; meals: any[] 
                                         />
                                         {results.length > 0 && showOptions && (
                                             <ul
-                                                className="absolute z-10 mt-1 max-h-60 w-full overflow-y-auto rounded-lg border bg-white shadow-lg"
+                                                className="absolute z-10 mt-1 max-h-60 w-full overflow-y-auto rounded-lg border bg-white shadow-lg dark:bg-black dark:border-gray-700"
                                                 tabIndex={0}
                                             >
                                                 {results.map((food: any) => (
                                                     <li
                                                         key={food?.value}
-                                                        className="cursor-pointer p-3 hover:bg-gray-100"
+                                                        className="cursor-pointer p-3 hover:bg-gray-100 dark:hover:bg-gray-700"
                                                         onClick={() => {
                                                             setShowOptions(false);
                                                             setData('food', food?.data);
@@ -154,7 +154,7 @@ export default function Dashboard(props: { dailyGoals: DailyGoals; meals: any[] 
                                                             setNutritionData(food?.data.data);
                                                         }}
                                                     >
-                                                        <div className="font-medium">{food?.label}</div>
+                                                        <div className="font-medium text-gray-900 dark:text-gray-100">{food?.label}</div>
                                                     </li>
                                                 ))}
                                             </ul>

@@ -12,6 +12,8 @@ use Inertia\Inertia;
 use Inertia\Response;
 use Native\Laravel\Facades\App;
 use App\Models\Tdee;
+use App\Events\LoginSuccess;
+
 
 class AuthenticatedSessionController extends Controller
 {
@@ -35,6 +37,7 @@ class AuthenticatedSessionController extends Controller
 
         $request->session()->regenerate();
         if (Tdee::where('user_id', Auth::id())->exists()) {
+            broadcast(new LoginSuccess());
             return redirect()->intended(route('dashboard', absolute: false));
         } else {
             return redirect()->route('tdee-calculator');

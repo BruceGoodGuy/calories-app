@@ -42,11 +42,14 @@ class NativeAppServiceProvider implements ProvidesPhpIni
             Menu::make(
                 Menu::link('https://github.com/BruceGoodGuy/calories-app/tree/dev', 'Repository'),
                 Menu::route('app.test', 'Test'),
-            )->label('About')
+            )->label('About'),
+            Menu::make(
+                Menu::route('app.import', 'Import dataset', 'Ctrl+I'),
+            )->label('Tools')
         );
         MenuBar::create()->height(300)->route('widget.menubar')->alwaysOnTop();
         Window::open()
-            ->width(800)
+            ->width(1000)
             ->height(800)->resizable(false);
     }
 

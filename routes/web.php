@@ -39,4 +39,5 @@ Route::group(['prefix' => 'app'], routes: function () {
     Route::get('/quit', [AppController::class, 'quit'])->name('app.quit');
     Route::get('/relaunch', [AppController::class, 'relaunch'])->name('app.relaunch');
     Route::get('/test', [AppController::class, 'test'])->name('app.test');
+    Route::get('/import', [AppController::class, 'import'])->name('app.import');
 });

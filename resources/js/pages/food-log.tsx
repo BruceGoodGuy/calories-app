@@ -89,22 +89,22 @@ export default function FoodLog(props: any) {
                         <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
                             <div className="rounded-lg bg-muted/50 p-4 text-center">
                                 <div className="font-semibold capitalize">Breakfast</div>
-                                <div className="text-2xl font-bold text-primary">{Math.round(props?.mealSummaries['0']?.calories) ?? 0}</div>
+                                <div className="text-2xl font-bold text-primary">{isNaN(Math.round(props?.mealSummaries['0']?.calories)) ? 0 : Math.round(props?.mealSummaries['0']?.calories)}</div>
                                 <div className="text-sm text-muted-foreground">kcal</div>
                             </div>
                             <div className="rounded-lg bg-muted/50 p-4 text-center">
                                 <div className="font-semibold capitalize">Lunch</div>
-                                <div className="text-2xl font-bold text-primary">{Math.round(props?.mealSummaries['1']?.calories) ?? 0}</div>
+                                <div className="text-2xl font-bold text-primary">{isNaN(Math.round(props?.mealSummaries['1']?.calories)) ? 0 : Math.round(props?.mealSummaries['1']?.calories)}</div>
                                 <div className="text-sm text-muted-foreground">kcal</div>
                             </div>
                             <div className="rounded-lg bg-muted/50 p-4 text-center">
                                 <div className="font-semibold capitalize">Dinner</div>
-                                <div className="text-2xl font-bold text-primary">{Math.round(props?.mealSummaries['2']?.calories) ?? 0}</div>
+                                <div className="text-2xl font-bold text-primary">{isNaN(Math.round(props?.mealSummaries['2']?.calories)) ? 0 : Math.round(props?.mealSummaries['2']?.calories)}</div>
                                 <div className="text-sm text-muted-foreground">kcal</div>
                             </div>
                             <div className="rounded-lg bg-muted/50 p-4 text-center">
                                 <div className="font-semibold capitalize">Snacks</div>
-                                <div className="text-2xl font-bold text-primary">{Math.round(props?.mealSummaries['3']?.calories) ?? 0}</div>
+                                <div className="text-2xl font-bold text-primary">{isNaN(Math.round(props?.mealSummaries['3']?.calories)) ? 0 : Math.round(props?.mealSummaries['3']?.calories)}</div>
                                 <div className="text-sm text-muted-foreground">kcal</div>
                             </div>
                         </div>

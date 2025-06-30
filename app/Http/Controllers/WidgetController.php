@@ -27,7 +27,7 @@ class WidgetController extends Controller
         if (auth()->check()) {
             $name = explode(' ', auth()->user()->name)[0];
             $dailyGoals = $this->foodService->dailyGoals();
-            return inertia('widgets/authenticate-menubar', ['name' => $name, 'dailyGoals' => $dailyGoals]);
+            return inertia('widgets/unauthenticate-menubar', ['name' => $name, 'dailyGoals' => $dailyGoals, 'authenticated' => true]);
         }
         return inertia('widgets/unauthenticate-menubar', []);
     }
@@ -35,7 +35,7 @@ class WidgetController extends Controller
     public function login()
     {
         Window::open('secondary')
-            ->width(800)
+            ->width(1000)
             ->height(800)
             ->resizable(false)
             ->route('login');
@@ -44,7 +44,7 @@ class WidgetController extends Controller
     public function addMeal()
     {
         Window::open('secondary')
-            ->width(800)
+            ->width(1000)
             ->height(800)
             ->resizable(false)
             ->route('food-log');
